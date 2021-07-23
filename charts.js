@@ -78,8 +78,8 @@ function buildCharts(sample) {
     // 8. Create the trace for the bar chart. 
     var barData = [
       {
-        x : sample_values.slice(0,11),
-        y : yticks,
+        x : yticks,
+        y : sample_values.slice(0,11),
         type : "bar"
       }
     ];
