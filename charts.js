@@ -74,7 +74,7 @@ function buildCharts(sample) {
     //  so the otu_ids with the most bacteria are last. 
 
     var yticks = otu_ids.map(String).slice(0,11);
-
+    console.log(yticks);
     // 8. Create the trace for the bar chart. 
     var barData = [
       {
