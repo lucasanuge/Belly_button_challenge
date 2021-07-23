@@ -79,7 +79,8 @@ function buildCharts(sample) {
     var barData = [
       {
         x : sample_values.slice(0,11),
-        y : yticks
+        y : yticks,
+        type : "bar"
       }
     ];
     // 9. Create the layout for the bar chart. 
