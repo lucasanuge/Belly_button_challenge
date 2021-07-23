@@ -86,8 +86,8 @@ function buildCharts(sample) {
     // 9. Create the layout for the bar chart. 
     var barLayout = {
       title : "Bar Chart",
-      xaxis : {title: "otu ids"},
-      yaxis : {title: "sample values"}
+      xaxis : {title: "sample values"},
+      yaxis : {title: "OTU IDs"}
     };
     // 10. Use Plotly to plot the data with the layout. 
     Plotly.newPlot("bar", barData, barLayout);
