@@ -2,6 +2,11 @@ h1 {
     color : whitesmoke;
 }
 
+.textbox {
+    color : whitesmoke;
+}
+
+
 .jumbotron {
     background-image: url("../images/bacteria.jpg");
     background-size: 100% 100%;
